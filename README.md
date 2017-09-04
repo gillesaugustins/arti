@@ -1,4 +1,4 @@
-# arti
+# Artistic Style Transfer
 
 The internal representations of Convolutional Neural Networks have demonstrated their ability to capture semantic visual information. 
 It is possible to use that semantic space to transfer the style of a painting onto pictures or photographs.
