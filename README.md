@@ -9,3 +9,5 @@ http://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Gatys_Image_Sty
 
 The purpose of this project is to analyze the paper and implement and test the algorithm described.
 We have chosen here the Keras frontend / TensorFlow backend. The code is developed in the Python environment.
+
+The project was done as part of the CNAM RCP209 Machine Learning course.
