@@ -1,0 +1,38 @@
+Scripts available in the archive
+================================
+
+1. img_reconst_BFGS.py
+- This script performs image reconstruction from the response of a white noise 
+  image at all layers of the network (the script loops on all convolutional 
+  layers). 
+- The target image is elephant.jpg
+- Two optimization methods are implemented: gradient descent and BFGS
+- To run the script in background turn show_pictures to 0 
+
+       > python3 img_reconst_BFGS.py
+
+2. style_reconst_BFGS.py
+- This script performs style reconstruction from the response of a white noise 
+  image at all layers of the network (the script loops on all convolutional 
+  layers). 
+- The style image is vangogh.jpg
+- Only BFGS is implemented
+- To run the script in background turn show_pictures to 0 
+
+       > python3 style_reconst_BFGS.py
+
+3. style_transfer_BFGS.py
+- This script performs style transfer from the style image is vangogh.jpg
+  to the content image elephant.jpg.
+- The content loss is computed at layer Block4 Conv2. The script can be 
+  configured to synthesize pictures with content loss computed on all layers 
+  (uncomment the content_layers line)
+- The picture is synthesized with alpha=1e-6. Modify alpha_list to loop on 
+  different values 
+- Only BFGS is implemented
+- To run the script in background turn show_pictures to 0 
+
+       > python3 style_transfer_BFGS.py
+
+4. utils.py
+- Image processing library
